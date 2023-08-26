@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body id="theme1">
+    <div class="container">
+      <div class="title">
+        <h1>Calc</h1>
+        <div>
+          <div class="num">
+            <p id="theme-one">1</p>
+            <p id="theme-two">2</p>
+            <p id="theme-three">3</p>
+          </div>
+          <div class="control">
+            <span>THEME</span>
+            <div class="toggle">
+              <span id="theme-one-circle"></span>
+              <span id="theme-two-circle"></span>
+              <span id="theme-three-circle"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calculator-screen">
+        <input type="text" name="calc" id="screen" readonly />
+      </div>
+      <div class="calculator-body">
+        <div class="btn">
+          <button value="7" class="number">7</button>
+          <button value="8" class="number">8</button>
+          <button value="9" class="number">9</button>
+          <button value="del" id="delete">DEL</button>
+          <button value="4" class="number">4</button>
+          <button value="5" class="number">5</button>
+          <button value="6" class="number">6</button>
+          <button value="+" class="operator">+</button>
+          <button value="1" class="number">1</button>
+          <button value="2" class="number">2</button>
+          <button value="3" class="number">3</button>
+          <button value="-" class="operator">-</button>
+          <button value="decimal" class="operator">.</button>
+          <button value="0" class="number">0</button>
+          <button value="/" class="operator">/</button>
+          <button value="*" class="operator">X</button>
+          <button id="reset" value="reset">RESET</button>
+          <button id="equal" value="output">=</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/marimragab" target="_blank">Mariam Ragab</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
